@@ -9,9 +9,7 @@ __pycache__/
 # macOS
 .DS_Store
 
-# Data and outputs (keep folders, not contents)
-data/raw/*
-data/processed/*
+# Outputs (keep folders, not contents)
 results/*
 figures/*
 !**/.gitkeep
