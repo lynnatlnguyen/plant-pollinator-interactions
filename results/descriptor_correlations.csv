@@ -1,0 +1,5 @@
+,size,connectance,NODF,modularity
+size,1.0,-0.831,-0.7,-0.168
+connectance,-0.831,1.0,0.89,0.174
+NODF,-0.7,0.89,1.0,0.041
+modularity,-0.168,0.174,0.041,1.0
