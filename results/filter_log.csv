@@ -1,0 +1,175 @@
+network,kept,reason
+M_PL_001,True,
+M_PL_002,True,
+M_PL_003,True,
+M_PL_004,True,
+M_PL_005,True,
+M_PL_006,True,
+M_PL_007,True,
+M_PL_008,True,
+M_PL_009,True,
+M_PL_010,True,
+M_PL_011,False,too few links (38)
+M_PL_012,True,
+M_PL_013,False,too small (8x53)
+M_PL_014,True,
+M_PL_015,True,
+M_PL_016,True,
+M_PL_017,True,
+M_PL_018,True,
+M_PL_019,True,
+M_PL_020,True,
+M_PL_021,True,
+M_PL_022,True,
+M_PL_023,True,
+M_PL_024,False,too small (9x17)
+M_PL_025,True,
+M_PL_026,True,
+M_PL_027,True,
+M_PL_028,True,
+M_PL_029,True,
+M_PL_030,True,
+M_PL_031,True,
+M_PL_032,False,too small (6x24)
+M_PL_033,True,
+M_PL_034,True,
+M_PL_035,True,
+M_PL_036,False,too small (9x9)
+M_PL_037,False,too small (9x38)
+M_PL_038,False,too small (7x35)
+M_PL_039,True,
+M_PL_040,True,
+M_PL_041,True,
+M_PL_042,False,too small (11x5)
+M_PL_043,True,
+M_PL_044,True,
+M_PL_045,True,
+M_PL_046,True,
+M_PL_047,True,
+M_PL_048,True,
+M_PL_049,True,
+M_PL_050,True,
+M_PL_051,True,
+M_PL_052,True,
+M_PL_053,True,
+M_PL_054,True,
+M_PL_055,True,
+M_PL_056,True,
+M_PL_057,True,
+M_PL_058,True,
+M_PL_059,False,too small (12x9)
+M_PL_060_01,True,
+M_PL_060_02,True,
+M_PL_060_03,True,
+M_PL_060_04,True,
+M_PL_060_05,True,
+M_PL_060_06,True,
+M_PL_060_07,True,
+M_PL_060_08,True,
+M_PL_060_09,True,
+M_PL_060_10,False,too few links (47)
+M_PL_060_11,False,too few links (38)
+M_PL_060_12,False,too few links (46)
+M_PL_060_13,False,too small (5x29)
+M_PL_060_14,True,
+M_PL_060_15,True,
+M_PL_060_16,True,
+M_PL_060_17,True,
+M_PL_060_18,True,
+M_PL_060_19,False,too few links (31)
+M_PL_060_20,False,too few links (32)
+M_PL_060_21,False,too small (5x19)
+M_PL_060_22,True,
+M_PL_060_23,False,too few links (42)
+M_PL_060_24,False,too few links (35)
+M_PL_061_01,False,too small (4x11)
+M_PL_061_02,False,too small (4x16)
+M_PL_061_03,False,too small (5x13)
+M_PL_061_04,False,too small (7x13)
+M_PL_061_05,False,too few links (40)
+M_PL_061_06,False,too few links (43)
+M_PL_061_07,False,too small (8x19)
+M_PL_061_08,False,too small (5x17)
+M_PL_061_09,False,too small (5x9)
+M_PL_061_10,False,too small (4x10)
+M_PL_061_11,False,too small (5x9)
+M_PL_061_12,False,too small (5x10)
+M_PL_061_13,False,too small (6x17)
+M_PL_061_14,False,too small (5x9)
+M_PL_061_15,False,too small (5x15)
+M_PL_061_16,False,too small (7x18)
+M_PL_061_17,False,too small (8x10)
+M_PL_061_18,False,too few links (24)
+M_PL_061_19,False,too small (9x20)
+M_PL_061_20,False,too small (9x13)
+M_PL_061_21,False,too few links (31)
+M_PL_061_22,False,too small (8x17)
+M_PL_061_23,False,too small (8x22)
+M_PL_061_24,False,too small (9x16)
+M_PL_061_25,False,too small (4x8)
+M_PL_061_26,False,too small (6x12)
+M_PL_061_27,False,too small (5x7)
+M_PL_061_28,False,too small (7x17)
+M_PL_061_29,False,too small (7x17)
+M_PL_061_30,False,too small (6x12)
+M_PL_061_31,False,too small (4x14)
+M_PL_061_32,False,too small (5x13)
+M_PL_061_33,False,too small (1x1)
+M_PL_061_34,False,too small (2x5)
+M_PL_061_35,False,too small (7x10)
+M_PL_061_36,False,too small (6x15)
+M_PL_061_37,False,too few links (34)
+M_PL_061_38,False,too small (9x21)
+M_PL_061_39,False,too small (6x21)
+M_PL_061_40,False,too small (8x22)
+M_PL_061_41,False,too small (3x6)
+M_PL_061_42,False,too small (4x8)
+M_PL_061_43,False,too small (8x15)
+M_PL_061_44,False,too small (6x10)
+M_PL_061_45,False,too small (9x19)
+M_PL_061_46,False,too few links (33)
+M_PL_061_47,False,too small (8x24)
+M_PL_061_48,False,too small (8x11)
+M_PL_062,True,
+M_PL_063,False,too small (54x8)
+M_PL_064,False,too small (13x7)
+M_PL_065,False,too small (17x4)
+M_PL_066,False,too small (29x4)
+M_PL_067,False,too small (30x4)
+M_PL_068,False,too small (30x8)
+M_PL_069_01,False,too small (17x5)
+M_PL_069_02,False,too small (9x3)
+M_PL_069_03,False,too small (6x3)
+M_PL_070,False,too small (7x7)
+M_PL_071,False,too small (43x7)
+M_PL_072_01,True,
+M_PL_072_02,True,
+M_PL_072_03,True,
+M_PL_072_04,True,
+M_PL_072_05,True,
+M_PL_072_06,True,
+M_PL_072_07,True,
+M_PL_072_08,True,
+M_PL_072_09,True,
+M_PL_072_10,True,
+M_PL_072_11,True,
+M_PL_072_12,True,
+M_PL_073,True,
+M_PL_074_01,True,
+M_PL_074_02,True,
+M_PL_074_03,True,
+M_PL_074_04,False,too small (56x8)
+M_PL_074_05,True,
+M_PL_074_06,True,
+M_PL_074_07,True,
+M_PL_074_08,True,
+M_PL_074_09,False,too small (49x8)
+M_PL_074_10,True,
+M_PL_074_11,True,
+M_PL_074_12,False,too few links (40)
+M_PL_074_13,True,
+M_PL_074_14,False,too few links (45)
+M_PL_074_15,False,too small (24x8)
+M_PL_074_16,True,
+M_PL_074_17,False,too small (28x5)
+M_PL_074_18,True,
