@@ -11,8 +11,8 @@ MIN_LINKS = 50       # enough edges that a 20% test split is meaningful
 
 
 def load_binary_matrix(path):
-    """Read a Web of Life CSV and binarize: any positive weight -> 1."""
-    df = pd.read_csv(path, index_col=0)
+    """Read a Web of Life CSV (no header, no labels) and binarize: any positive weight -> 1."""
+    df = pd.read_csv(path, header=None)
     df = df.apply(pd.to_numeric, errors="coerce").fillna(0)
     return (df > 0).astype(int)
 
