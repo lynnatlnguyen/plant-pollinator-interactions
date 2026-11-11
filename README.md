@@ -59,9 +59,13 @@ pollinator is a path of length 3 (plant → pollinator → plant → pollinator)
 
 Plant–pollinator networks from the [Web of Life](https://www.web-of-life.es/) database,
 stored as `data/raw/M_PL_*.csv` (174 networks; plants are rows, pollinators are columns).
-Interaction weights are binarized (any positive value → 1). Networks are kept only if they have
-at least 10 plants, 10 pollinators and 50 links; 91 networks pass the filter
+The raw files have no header row and no species labels, so every row and column is read as
+data. Interaction weights are binarized (any positive value → 1). Networks are kept only if
+they have at least 10 plants, 10 pollinators and 50 links; 100 networks pass the filter
 (see `results/filter_log.csv`).
+
+Modularity uses seeded Louvain from networkx, whose output varies slightly between networkx
+versions. The committed descriptors were computed with networkx 3.7.
 
 ## Layout
 
@@ -102,19 +106,22 @@ python -m src.plot_gap         # figures/gap_vs_structure.png
 
 ## Preliminary results
 
-Test ROC-AUC and average precision across 91 networks (each averaged over 5 seeds):
+Test ROC-AUC and average precision across 100 networks (each averaged over 5 seeds):
 
 | Method | ROC-AUC | AP |
 |---|---|---|
-| L3 | 0.711 ± 0.086 | 0.709 ± 0.084 |
-| Normalized L3 | 0.726 ± 0.089 | 0.743 ± 0.084 |
-| RA3 | 0.726 ± 0.090 | 0.742 ± 0.085 |
-| AA3 | 0.725 ± 0.089 | 0.742 ± 0.085 |
-| Preferential attachment | **0.806 ± 0.058** | **0.801 ± 0.057** |
+| L3 | 0.710 ± 0.091 | 0.709 ± 0.088 |
+| Normalized L3 | 0.723 ± 0.095 | 0.741 ± 0.088 |
+| RA3 | 0.724 ± 0.096 | 0.741 ± 0.089 |
+| AA3 | 0.722 ± 0.095 | 0.740 ± 0.088 |
+| Preferential attachment | **0.799 ± 0.061** | **0.794 ± 0.058** |
 
-- **Preferential attachment wins on 83 of 91 networks.** Under uniform negative sampling,
+- **Preferential attachment wins on 81 of 100 networks.** Under uniform negative sampling,
   held-out interactions mostly involve generalists, so degree alone is a strong signal.
 - **Path-based scores close the gap in denser and more nested networks** (Spearman
-  ρ = −0.39 with connectance, ρ = −0.34 with NODF; both p ≤ 0.001).
+  ρ = −0.34 with connectance, p < 0.001; ρ = −0.30 with NODF, p = 0.003).
+- **The gap is larger in more modular networks** (ρ = 0.63, p < 0.001). Modularity is
+  strongly correlated with connectance (ρ = −0.72) and NODF (ρ = −0.75), so this is not
+  separable from the density effect yet.
 - **Next:** degree-matched negatives to separate structure from popularity, then Node2Vec,
   which has to beat preferential attachment to show it learns more than degree.
